@@ -33,7 +33,7 @@ public class trend {
 				while (parser.hasMoreTokens()) {
 					final String currentWord = parser.nextToken();
 
-					if(!currentWord.contains("@") && currentWord.charAt(0)!= '@' && currentWord.charAt(0) == '#'){
+					if(currentWord.charAt(0) == '#'){
 					Integer frequency = frequencyMap.get(currentWord);
 
 					// Add the word if it doesn't already exist, otherwise
