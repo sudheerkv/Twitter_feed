@@ -10,7 +10,7 @@ import java.util.TreeMap;
 public class trend {
 	public static void main(String[] args) {
 		String curDir = System.getProperty("user.dir");
-		final File textFile = new File(curDir +"/src/Feed.txt");
+		final File textFile = new File(curDir +"/Feed.txt");
 		 BufferedReader in=null;
 
 		// Mapping of String->Integer (word -> frequency)
