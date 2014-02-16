@@ -27,3 +27,5 @@ Limitation:
 REFERENCES:
   Required java pieces of code is copied from open source projects like stackoverflow or blogs
   Parsing all files in a directory : http://stackoverflow.com/questions/2534632/list-all-files-from-a-directory-recursively-with-java
+  http://code.google.com/p/json-simple/wiki/DecodingExamples
+  http://code.google.com/p/json-simple/
